@@ -16,4 +16,4 @@ def change_recipe(head,recipe):
             if number not in [numline, len(lines)]:
                 # print(line)
                 f.write(line)
-        f.write(f'{newrec[0]};{newrec[1]};{newrec[2]};{newrec[3]}')
+        f.write(f'{newrec[0]};{newrec[1]};{newrec[2]};{newrec[3]}\n')
